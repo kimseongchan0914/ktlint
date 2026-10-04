@@ -38,7 +38,7 @@ public class SafeEnumValueParser<T : Enum<T>>(
             } catch (e: IllegalArgumentException) {
                 PropertyType.PropertyValue.invalid(
                     value,
-                    "Unexpected parsed \"" + value + "\" for enum " + enumType.name,
+                    "Unexpected parsed \"" + value + "\" for enum " + enumType.name + ": " + e.message,
                 )
             }
         }

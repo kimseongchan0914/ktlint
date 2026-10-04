@@ -1,3 +1,5 @@
+@file:JvmName("RuleExecutionEditorConfigPropertyKt") // Preserve the binary-compatible facade class name after the file rename below
+
 package io.github.ktlint.core.rule.engine.core.api.editorconfig
 
 import io.github.ktlint.core.rule.engine.core.api.RuleId
